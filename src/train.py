@@ -15,7 +15,7 @@ num_classes = 2  # Number of anxiety classes
 EEG_PATH = "../datasets/Dasps.mat/"
 LABEL_PATH = "../datasets/participant_rating_public.xlsx"
 subject_range = range(1, 24)
-    mps_device = torch.device("cpu")
+mps_device = torch.device("cpu")
 
 
 if __name__ == "__main__":
